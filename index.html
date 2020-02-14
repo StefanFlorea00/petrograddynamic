@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+      <ul>
+          <li>Home</li>
+          <li>Menu</li>
+          <li>Contact</li>
+      </ul>
+  </nav>
+
+    <div class="logoWrapper">
+    <div class="logo">
+        <h1 class="logoText">Petrograd Restaurant</h1>
+    </div>
+    </div>
+
+  <main>
+  <section class="btnSection"></section>
+   <section class="foodGrid"></section>
+</main>
+
+
+   <template id="foodTemplate">
+   <article class="foodItem">
+      <div class="titleDiv">
+       <h2 class="foodTitle">Name</h2>
+       <div class="foodImgDiv">
+       <img class="foodImg" src="" alt="img">
+       <img class="soldOut" src="" alt="soldOut">
+       </div>
+        <div class="priceDiv"><span class="discount"></span><span class="price"></span>dkk</div>
+       </div>
+       <div class="descriptionDiv">
+       <p class="desc">ShortDesc</p>
+       <div class="descriptionImgs">
+        <img class="modImgVeg" src=""/>
+        <img class="modImgAlc" src=""/>
+        </div>
+       </div>
+        <button>Buy now</button>
+   </article>
+    </template>
+
+    <div class="foodModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="modalName">Name</p>
+    <img class="modalFoodImg" src="" />
+    <p class="modalDescription"></p>
+    <p class="modalPrice">Price: <span class="modalDiscount"></span><span class="modalActualPrice"></span> dkk</p>
+    <div class="modalDescriptionImgs">
+        <img class="modImgVeg" src=""/>
+        <p class="modImgVegP">Vegetarian</p>
+        <img class="modImgAlc" src=""/>
+        <p class="modImgAlcP">Alcohol content: <span></span>%</p>
+    </div>
+    <button>Buy</button>
+  </div>
+
+</div>
+
+   <footer>Footer</footer>
+    <script src="script.js"></script>
+</body>
+</html>
